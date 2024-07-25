@@ -70,11 +70,18 @@ footer {
   opacity: 0.6;
 }
 
-@media (width >=1024px) {
-  body {
+@media(width >= 600px){
+  body{
     width: 100%;
     overflow-x: hidden;
   }
+  footer{
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (width >=1024px) {
 
   .poison-title-img {
     width: 180px;

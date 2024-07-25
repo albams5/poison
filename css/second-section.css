@@ -99,6 +99,16 @@
   transform: scale(1.1);
 }
 
+@media(width >= 600px){
+  .second-section {
+    margin-left: 125px;
+  }
+
+  .second-section-quote{
+    text-align: start;
+  }
+}
+
 @media (width >=1024px) {
   .second-section {
     margin-left: 105px;

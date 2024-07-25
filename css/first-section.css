@@ -149,6 +149,18 @@
   }
 }
 
+@media(width >= 600px){
+  .title-container {
+    width: 600px;
+  }
+  .first-section-span {
+    margin-left: 120px;
+  }
+  .drink-now-btn {
+    left: 165px;
+    top: 350px;
+  }
+}
 
 
 @media (width >=1024px) {
@@ -172,6 +184,13 @@
   }
   .first-section-comment {
     bottom: 30px;
+  }
+}
+
+@media (width >= 1200px){
+  .poison-img {
+    top: 40px;
+    left: 605px;
   }
 }
 
@@ -206,8 +225,6 @@
   .poison-img {
     top: 50px;
     left: 805px;
-    width: 540px;
-    height: 540px;
   }
   .first-section-comment {
     width: 400px;
